@@ -60,7 +60,7 @@ const Navigation = () => {
             </li>
             <li>
               <a
-                href="https://www.google.com"
+                href="https://github.com/mohamedharrat"
                 target="_blank"
                 rel="noopener noreferrer"
               >
