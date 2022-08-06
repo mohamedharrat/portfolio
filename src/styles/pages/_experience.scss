@@ -1,0 +1,154 @@
+
+
+.experience {
+
+    display: flex;
+    background-color: #ebf5fc;
+    
+    
+    
+    .experienceContent {
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ebf5fc ;
+    
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 40px 0 0 40px;
+        
+        .card {
+           position: relative;
+           min-width: 320px;
+           height: 400px;
+           box-shadow:  inset 5px 5px 5px rgba(0,0,0,0.05),
+           inset -5px -5px 5px rgba(255,255,255,0.5),
+           5px 5px 5px rgba(0,0,0,0.05),
+           -5px -5px 5px rgba(255,255,255,0.5);
+           border-radius: 15px;
+           margin: 30px;
+
+
+           #airport {
+               background: #ebf5fc;
+
+               &:hover {
+                background: url(../../../public/media/pexels-brett-sayles-3140204.jpg) center/cover;
+                color: #ebf5fc;
+               }
+
+            
+
+               
+           }
+                      
+                      
+                        .box {
+                            position: absolute;
+                            top: 20px;
+                            left: 20px;
+                            right: 20px;
+                            bottom: 20px;
+                            background:#ebf5fc ;
+                            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+                            border-radius: 15px;
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+                            transition: 0.5s;
+
+                         
+
+                            &:hover {
+                                transform: translateY(-50px);
+                                box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+                                // background: linear-gradient(45deg, #b95ce4, #4f29cd) !important;
+
+                            
+                            }
+                            
+                            
+                            .content {
+                                padding: 20px;
+                                text-align: center;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: space-between;
+                                
+                                h2 {
+                                    position: absolute;
+                                    top: -10px;
+                                    right: 30px;
+                                    font-size: 6rem;
+                                    color: rgba(0,0,0,0.05);
+                                    transition: 0.5s;
+                                   
+                                    
+                                }
+
+                                h3 {
+                                    margin: 50px 0;
+                                }
+
+                               p {
+                                   margin: 20px;
+                               }
+
+                                button {
+                                    cursor: pointer;
+                                    background:rgb(7, 7, 7);
+                                    color: #ffffff;
+                                    border-radius: 50px;
+                                    padding: 10px 20px;
+                                    
+                                }
+                               
+                            }
+                        }
+
+                        
+                    }
+                }
+            }
+            #fret {
+                background: #ebf5fc;
+
+                &:hover {
+                    background: url(../../../public/media/DHL-Africa-eShop-ecommerce.jpg) center/cover;
+                    color: #ebf5fc;
+                }
+            }
+            #amz {
+                background: #ebf5fc;
+
+                &:hover {
+                    background: url(../../../public/media/amazon.jpg) center/cover;
+                    color: #ebf5fc;
+                }
+            }
+            #acd {
+                background:#ebf5fc;
+
+                &:hover {
+                    background: url(../../../public/media/téléchargement.jpg) center/cover;
+                    
+                }
+            }
+
+
+     
+            
+        }
+        @media screen and (max-width: 850px) {
+            .experience {
+                display: flex;
+                flex-direction: column;
+            }
+        }

@@ -1,0 +1,63 @@
+.knowledges {
+    
+    
+    background-color: #ebf5fc;
+
+    .knowledgesContent {
+        display: flex;
+        width: 100%;
+        // flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background: #ebf5fc;
+    }
+
+
+    .langue {
+        width: 30%;
+    }
+
+    .other {
+        width: 50%;
+    }
+    @media screen and (max-width: 1250px) {
+        .knowledgesContent {
+            display: flex;
+            flex-direction: columns;
+
+            .langue {
+                width: 100%;
+            }
+        }
+    }
+    
+    @media screen and (max-width: 850px) {
+        .knowledgesContent {
+            display: flex;
+            flex-direction: column;
+
+            .langue {
+                width: 100%;
+            }
+        }
+    }
+    @media screen and (max-width: 580px) {
+        .knowledgesContent {
+            display: flex;
+            flex-direction: column;
+           
+
+            .langue {
+                width: 100%;
+            }
+        }
+
+        // // .other {
+        // //     margin-left: 50%;
+        // //     transform: translate(-50%);
+            
+        // }
+
+    }
+ 
+}

@@ -1,0 +1,123 @@
+.otherSkill {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    // width: 400px;
+    // height: 400px;
+
+   
+      
+    //   .item {
+    //     margin: 20px 20px;
+    //     height: 100px;
+    //     width: 100px;
+    //     background: black;
+    //     animation: item 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        
+    //   }
+    //   @keyframes item {
+    //     0% {
+    //       transform: translateX(1000px);
+    //       opacity: 0;
+    //     }
+    //     100% {
+    //       transform: translateX(0);
+    //       opacity: 1;
+    //     }
+    //   }
+      
+    //   @media screen and (max-width: 850px) {
+    //     display: flex;
+    //     flex-direction: column;
+    //   }
+    //   @media screen and (max-width: 580px) {
+    //     display: flex;
+    //     flex-direction: column;
+    //   }
+
+
+      .loaderContainer {
+        border-radius: 10px;
+        background: white;
+        width: 150px;
+        height: 150px;
+        margin: 100px auto 0; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+         animation: item 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+      
+
+        
+
+             @keyframes item {
+        0% {
+          transform: translateX(1000px);
+          opacity: 0;
+        }
+        100% {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+
+      .loaderMotiv {
+        display: block;
+        position: relative;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 7px solid transparent;
+        border-right-color: rgb(255, 47, 47);
+        border-bottom-color: rgb(255, 47, 47);
+        border-left-color: rgb(255, 47, 47);
+        transition: .5s ease;
+
+        &:hover {
+          transform: translateY(-20px);
+        }
+        
+      }
+
+      
+      
+        
+        h6 {
+          z-index: 0;
+          margin-left: 50%;
+          transform: translate(-50%);
+          color: #333;
+          text-align: center;
+        }
+
+        .loader {
+          display: block;
+          position: relative;
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          border: 7px solid transparent;
+          border-right-color: rgb(255, 47, 47);
+          border-bottom-color: rgb(255, 47, 47);
+          border-left-color: #333;
+          transition: .5s ease;
+          
+          &:hover {
+            transform: translateY(-20px);
+          }
+          
+         
+          
+         
+        }
+      }
+
+
+    }
+ 
+
+  
