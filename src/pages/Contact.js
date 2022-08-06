@@ -1,12 +1,10 @@
 import React from "react";
 import Navigation from "../components/Navigation";
-// import DarkMode from "../../src/components/DarkMode";
 
 const Contact = () => {
   return (
     <div className="contact">
       <Navigation />
-      {/* <DarkMode /> */}
       <section class="contactContainer">
         <form action="#">
           <h2>Nous Contacter</h2>

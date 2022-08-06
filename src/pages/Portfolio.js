@@ -1,12 +1,10 @@
 import React from "react";
 import Navigation from "../components/Navigation";
-// import DarkMode from "../../src/components/DarkMode";
 
 const Portfolio = () => {
   return (
     <div className="portfolio">
       <Navigation />
-      {/* <DarkMode /> */}
       <div class="parent">
         <a
           href="https://harrat-mohamed-the-maroc.netlify.app"

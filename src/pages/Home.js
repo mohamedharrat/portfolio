@@ -1,12 +1,10 @@
 import React from "react";
 import Navigation from "../components/Navigation";
-// import DarkMode from "../../src/components/DarkMode";
 
 const Home = () => {
   return (
     <div className="home">
       <Navigation />
-      {/* <DarkMode /> */}
       <div className="homeContent">
         <div className="homeContainer">
           <h1>Full Stack développer</h1>
